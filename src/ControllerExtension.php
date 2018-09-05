@@ -15,6 +15,6 @@ class ControllerExtension extends Extension
         ];
 
         Requirements::combine_files('gallery.js', $scripts, ['async' => true]);
-        Requirements::css('dorsetdigital/silverstripe-photoswipe:client/dist/photoswipe.css');
+        Requirements::css('dorsetdigital/silverstripe-photoswipe:client/dist/gallery.css');
     }
 }
