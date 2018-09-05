@@ -1,0 +1,47 @@
+.photogallery {
+
+  border-top: solid 1px lighten($black, 90%);
+  clear: both;
+
+  a.progressive {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    outline: none;
+
+    img {
+      display: block;
+      width: 100%;
+      max-width: none;
+      height: auto;
+      border: 0 none;
+
+      &.preview {
+        filter: blur(.5vw);
+        transform: scale(1.05);
+      }
+
+      &.reveal {
+        position: absolute;
+        left: 0;
+        top: 0;
+        will-change: transform, opacity;
+        animation: reveal 1s ease-out;
+      }
+    }
+
+  }
+
+  a.progressive:not(.replace) {
+    cursor: default;
+  }
+
+}
+
+@keyframes reveal {
+  0% {transform: scale(1.05); opacity: 0;}
+  100% {transform: scale(1); opacity: 1;}
+}
+
+@import 'main';
+@import 'default-skin/default-skin';
