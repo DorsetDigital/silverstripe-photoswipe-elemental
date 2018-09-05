@@ -8,6 +8,10 @@ Includes gallery functionality along with a lazy-loader for the thumbnails to he
 * Silverstripe 4.x
 * bummzack/sortablefile
 
+The front-end code currently requires jQuery to work.  If you don't already have it on your site, it can be added with a simple requirements call, eg:
+
+`Requirements::javascript('https://code.jquery.com/jquery-3.3.1.min.js');` 
+
 # Installation
 * Install the code with `composer require dorsetdigital/silverstripe-photoswipe`
 * Run a `dev/build?flush` to update your project
