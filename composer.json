@@ -17,10 +17,5 @@
      "psr-4": {
       "DorsetDigital\\SilverstripePhotoswipe\\": "src/"
      }
-    },
-    "extra": {
-        "expose": [
-            "dist"
-        ]
     }
 }
