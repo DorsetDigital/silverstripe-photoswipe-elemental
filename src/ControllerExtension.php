@@ -9,14 +9,12 @@ class ControllerExtension extends Extension
 {
     public function onAfterInit() {
         $scripts = [
-            'dorsetdigital/silverstripe-photoswipe:dist/photoswipe.min.js',
-            'dorsetdigital/silverstripe-photoswipe:dist/photoswipe-ui-default.min.js',
-            'dorsetdigital/silverstripe-photoswipe:dist/gallery.js'
+            'dorsetdigital/silverstripe-photoswipe:client/dist/photoswipe.min.js',
+            'dorsetdigital/silverstripe-photoswipe:client/dist/photoswipe-ui-default.min.js',
+            'dorsetdigital/silverstripe-photoswipe:client/dist/gallery.js'
         ];
-        $styles = [
-            'dorsetdigital/silverstripe-photoswipe:dist/photoswipe.css'
-        ];
-        Requirements::combine_files('gallery.js', $scripts);
-        Requirements::combine_files('gallery.css', $styles);
+
+        Requirements::combine_files('gallery.js', $scripts, ['async' => true]);
+        Requirements::css('dorsetdigital/silverstripe-photoswipe:client/dist/photoswipe.css');
     }
 }
