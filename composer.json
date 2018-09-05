@@ -1,0 +1,26 @@
+{
+    "name": "dorsetdigital/silverstripe-photoswipe",
+    "description": "Allows embedding of a simple Photoswipe-powered gallery on a page",
+    "type": "silverstripe-vendormodule",
+    "license": "BSD-3-Clause",
+    "keywords": ["silverstripe", "gallery", "images"],
+    "authors": [
+        {
+            "name": "Tim Burt - Dorset Digital Ltd",
+            "email": "tim@dorset-digital.net"
+        }
+    ],
+    "require": {
+        "silverstripe/framework": "^4.0"
+    },
+    "autoload": {
+     "psr-4": {
+      "DorsetDigital\\SilverstripePhotoswipe\\": "src/"
+     }
+    },
+    "extra": {
+        "expose": [
+            "dist"
+        ]
+    }
+}
