@@ -1,6 +1,6 @@
 {
   "name": "dorsetdigital/silverstripe-photoswipe",
-  "description": "Allows embedding of a simple Photoswipe-powered gallery on a page",
+  "description": "Allows embedding of a simple Photoswipe-powered gallery on an elemental page",
   "type": "silverstripe-vendormodule",
   "license": "BSD-3-Clause",
   "keywords": [
@@ -17,11 +17,12 @@
   "require": {
     "silverstripe/cms": "^4.0",
     "silverstripe/vendor-plugin": "^1.0",
-    "bummzack/sortablefile": "^2.0"
+    "bummzack/sortablefile": "^2.0",
+    "dnadesign/silverstripe-elemental": "^2.0"
   },
   "autoload": {
     "psr-4": {
-      "DorsetDigital\\SilverstripePhotoswipe\\": "src/"
+      "DorsetDigital\\Elements\\": "src/"
     }
   },
   "extra": {

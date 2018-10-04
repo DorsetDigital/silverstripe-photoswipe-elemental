@@ -1,5 +1,5 @@
 <?php
-namespace DorsetDigital\SilverstripePhotoswipe;
+namespace DorsetDigital\Elements;
 
 use SilverStripe\Core\Extension;
 use SilverStripe\View\Requirements;
