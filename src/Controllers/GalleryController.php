@@ -1,5 +1,5 @@
 <?php
-namespace DorsetDigital\SilverstripePhotoswipe;
+namespace DorsetDigital\Elements\Controllers;
 
 use DNADesign\Elemental\Controllers\ElementController;
 use SilverStripe\View\Requirements;

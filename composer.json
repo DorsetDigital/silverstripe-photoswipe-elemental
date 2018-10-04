@@ -17,11 +17,12 @@
   "require": {
     "silverstripe/cms": "^4.0",
     "silverstripe/vendor-plugin": "^1.0",
-    "bummzack/sortablefile": "^2.0"
+    "bummzack/sortablefile": "^2.0",
+    "dnadesign/silverstripe-elemental": "^3.0"
   },
   "autoload": {
     "psr-4": {
-      "DorsetDigital\\SilverstripePhotoswipe\\": "src/"
+      "DorsetDigital\\Elements\\": "src/"
     }
   },
   "extra": {
