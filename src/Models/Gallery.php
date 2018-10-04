@@ -1,9 +1,9 @@
 <?php
 
-namespace DorsetDigital\Elements\Models;
+namespace DorsetDigital\Elements\PhotoSwipe\Models;
 
 use DNADesign\Elemental\Models\BaseElement;
-use DorsetDigital\Elements\Controllers\GalleryController;
+use DorsetDigital\Elements\PhotoSwipe\Controllers\GalleryController;
 use SilverStripe\Assets\Image;
 use Bummzack\SortableFile\Forms\SortableUploadField;
 

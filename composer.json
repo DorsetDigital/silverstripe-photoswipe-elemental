@@ -22,13 +22,12 @@
   },
   "autoload": {
     "psr-4": {
-      "DorsetDigital\\Elements\\": "src/"
+      "DorsetDigital\\Elements\\PhotoSwipe\\": "src/"
     }
   },
   "extra": {
     "expose": [
-      "client/dist",
-      "client/src"
+      "client/dist"
     ]
   }
 }
