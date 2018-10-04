@@ -1,5 +1,5 @@
 {
-  "name": "dorsetdigital/silverstripe-photoswipe",
+  "name": "dorsetdigital/silverstripe-photoswipe-elemental",
   "description": "Allows embedding of a simple Photoswipe-powered gallery on an elemental page",
   "type": "silverstripe-vendormodule",
   "license": "BSD-3-Clause",
