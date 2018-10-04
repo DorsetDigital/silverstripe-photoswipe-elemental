@@ -1,4 +1,4 @@
-<div class="row py-4 picture photogallery" itemscope itemtype="http://schema.org/ImageGallery">
+<div class="row py-4 picture photoswipegallery" itemscope itemtype="http://schema.org/ImageGallery">
     <% loop $SortedImages %>
         <figure class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4" itemprop="associatedMedia" itemscope
                 itemtype="http://schema.org/ImageObject">
