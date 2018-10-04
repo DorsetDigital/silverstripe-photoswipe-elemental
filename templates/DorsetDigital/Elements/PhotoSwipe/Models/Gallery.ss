@@ -1,9 +1,9 @@
+<% if $Title && $ShowTitle %>
+    <div class="gallerytitle_holder">
+        <h2 class="gallerytitle">$Title</h2>
+    </div>
+<% end_if %>
 <div class="row py-4 picture photoswipegallery" itemscope itemtype="http://schema.org/ImageGallery">
-    <% if $Title && $ShowTitle %>
-        <div class="gallerytitle_holder">
-            <h2 class="gallerytitle">$Title</h2>
-        </div>
-    <% end_if %>
     <% loop $SortedImages %>
         <figure class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4" itemprop="associatedMedia" itemscope
                 itemtype="http://schema.org/ImageObject">
