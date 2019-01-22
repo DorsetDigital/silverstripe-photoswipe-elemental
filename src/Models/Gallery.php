@@ -15,6 +15,8 @@ class Gallery extends BaseElement
     private static $table_name = 'DorsetDigital_Elements_PhotoSwipe';
     private static $controller_class = GalleryController::class;
 
+    private static $inline_editable = false;
+
     private static $many_many = [
         'GalleryImages' => Image::class
     ];

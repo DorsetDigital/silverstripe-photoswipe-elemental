@@ -7,7 +7,7 @@ Includes gallery functionality along with a lazy-loader for the thumbnails to he
 # Requirements
 * Silverstripe 4.x
 * bummzack/sortablefile
-* dnadesign/silverstripe-elemental
+* dnadesign/silverstripe-elemental ^3 || ^4
 
 
 
