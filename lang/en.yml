@@ -1,0 +1,6 @@
+en:
+  DorsetDigital\Elements\PhotosSwipe\Models\Gallery:
+    SUMMARY:
+      one: One image
+      other: '{count} images'
+    Description: Responsive image gallery

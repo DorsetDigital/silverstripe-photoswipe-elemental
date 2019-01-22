@@ -1,0 +1,6 @@
+de:
+  DorsetDigital\Elements\PhotosSwipe\Models\Gallery:
+    SUMMARY:
+      one: Ein Bild
+      other: '{count} Bilder'
+    Description: Responsive Bildergalerie
