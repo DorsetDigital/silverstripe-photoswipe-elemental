@@ -278,5 +278,6 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
     }
 };
 
-
-initPhotoSwipeFromDOM('.photoswipegallery');
+document.addEventListener('DOMContentLoaded', function() {
+    initPhotoSwipeFromDOM('.photoswipegallery');
+});
