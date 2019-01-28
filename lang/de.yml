@@ -1,6 +1,19 @@
 de:
+  DorsetDigital\Elements\PhotoSwipe\Models\Gallery:
+    PLURALNAME: 'Photoswipe Galerie'
+    PLURALS:
+      one: 'Eine Photoswipe Galerie'
+      other: '{count} Photoswipe Galerien'
+    SINGULARNAME: 'Photoswipe Galerien'
   DorsetDigital\Elements\PhotosSwipe\Models\Gallery:
     SUMMARY:
       one: Ein Bild
       other: '{count} Bilder'
     Description: Responsive Bildergalerie
+  DorsetDigital\Elements\PhotosSwipe\Models\PhotoSwipe:
+    CLOSE: 'Schließen (Esc)'
+    NEXT: 'Nächstes (Pfeil rechts)'
+    PREVIOUS: 'Vorheriges (Pfeil links)'
+    SHARE: Teilen
+    TOGGLEFULLSCREEN: 'Vollbild'
+    ZOOMINOUT: 'Zoom'
