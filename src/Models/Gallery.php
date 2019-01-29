@@ -60,13 +60,13 @@ class Gallery extends BaseElement
     protected function provideBlockSchema()
     {
         $blockSchema = parent::provideBlockSchema();
-        $blockSchema['content'] = $this->getSummary();
+        $blockSchema[ 'content' ] = $this->getSummary();
         return $blockSchema;
     }
 
     public function getSummary()
     {
-        return i18n::with_locale(Security::getCurrentUser()->Locale, function () {
+        return i18n::with_locale(Security::getCurrentUser()->Locale, function() {
             $template = SSViewer::get_templates_by_class(static::class, '_Summary');
             $summary = $this->renderWith($template);
             return $summary->RAW();
