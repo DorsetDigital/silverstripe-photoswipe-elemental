@@ -4,6 +4,11 @@ Add a responsive image gallery to a page using the Photoswipe library in an Elem
 
 Includes gallery functionality along with a lazy-loader for the thumbnails to help with page-load efficiency.
 
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/DorsetDigital/silverstripe-photoswipe-elemental/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/DorsetDigital/silverstripe-photoswipe-elemental/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/DorsetDigital/silverstripe-photoswipe-elemental/badges/build.png?b=master)](https://scrutinizer-ci.com/g/DorsetDigital/silverstripe-photoswipe-elemental/build-status/master)
+[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](LICENSE.md)
+[![Version](http://img.shields.io/packagist/v/dorsetdigital/silverstripe-photoswipe-elemental.svg?style=flat)](https://packagist.org/packages/dorsetdigital/silverstripe-cdnrewrite)
+
 # Requirements
 * Silverstripe 4.x
 * bummzack/sortablefile
