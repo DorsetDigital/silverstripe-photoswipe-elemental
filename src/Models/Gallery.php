@@ -41,6 +41,7 @@ class Gallery extends BaseElement
     public function getCMSFields()
     {
         $fields = parent::getCMSFields();
+        $fields->removeByName('GalleryImages');
         $fields->addFieldToTab('Root.Main', SortableUploadField::create(
             'GalleryImages', $this->owner->fieldLabel('Images')
         )->setFolderName('galleryimages')->setAllowedFileCategories('image/supported'));
