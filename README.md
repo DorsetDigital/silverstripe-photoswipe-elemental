@@ -26,3 +26,4 @@ The template which produces the standard gallery markup can be overridden, but p
 
 * The superb PhotoSwipe library - http://photoswipe.com/
 * Bummzack's sortable file extension for SS4 - https://github.com/bummzack/sortablefile
+* Werner Krauss for his translation work and Elemental 4 updates - https://github.com/wernerkrauss
