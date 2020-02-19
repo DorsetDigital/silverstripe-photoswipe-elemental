@@ -9,4 +9,4 @@
     <% end_loop %>
 </div>
 
-<% include DorsetDigital\\Elements\\PhotoSwipe\\Models\\Photoswipe %>
+<% include DorsetDigital\\Elements\\PhotoSwipe\\Models\\PhotoSwipe %>
