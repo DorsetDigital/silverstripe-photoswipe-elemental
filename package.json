@@ -35,7 +35,7 @@
     "gulp-sourcemaps": "^3.0.0",
     "gulp-terser": "^2.1.0",
     "photoswipe": "^5.4.4",
-    "postcss": "^8.2.1",
+    "postcss": "^8.5.23",
     "sass": "^1.79.3"
   }
 }
